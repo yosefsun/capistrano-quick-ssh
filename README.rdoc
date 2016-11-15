@@ -7,12 +7,12 @@ Adds a capistrano task which allows you to easily ssh into your different enviro
 In your Gemfile:
 
     group :development do
-      gem 'capistrano-quick-ssh'
+      gem 'capistrano_quick_ssh'
     end
 
 And in your config/deploy.rb:
 
-    require 'capistrano/capistrano-quick-ssh'
+    require 'capistrano/quick_ssh'
 
 
 === How to use
