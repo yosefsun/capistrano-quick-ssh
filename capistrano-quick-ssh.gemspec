@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   ## Leave these as is they will be modified for you by the rake gemspec task.
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
-  s.name              = 'capistrano-ssh'
+  s.name              = 'capistrano_quick_ssh'
   s.version           = CapistranoEasySSH::Version.to_s
   s.date              = Time.now.strftime("%Y-%m-%d")
   s.license           = 'MIT'
@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
   ## better to set the email to an email list or something. If you don't have
   ## a custom homepage, consider using your GitHub URL or the like.
   s.authors  = ["Yossi Shemesh"]
-  s.email    = 'yossi@getoliver.com'
-  s.homepage = 'http://github.com/yosefshe/capistrano-easy-ssh'
+  s.email    = 'yossi@yshemesh.com'
+  s.homepage = 'http://github.com/yosefshe/capistrano_quick_ssh'
 
   ## This sections is only necessary if you have C extensions.
   # s.require_paths << 'ext'
