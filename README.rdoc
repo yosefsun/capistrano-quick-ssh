@@ -12,13 +12,20 @@ In your Gemfile:
 
 And in your config/deploy.rb:
 
-	require 'capistrano/capistrano-easy-ssh'
+    require 'capistrano/capistrano-ssh'
+
 
 === How to use
 
-Simply run 'capistrano [environment] ssh' and you will be logged in or prompted (if more than one machine)
+Simply run:
 
-Example : capistrano staging ssh
+    'capistrano [environment] ssh'
+
+and you will be logged in or prompted (if more than one machine)
+
+Example:
+
+    capistrano production ssh
 
 == License
 
