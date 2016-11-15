@@ -1,0 +1,27 @@
+== Capistrano Easy SSH
+
+Adds a capistrano task which allows you to easily ssh into your different environments machines
+
+=== Installation
+
+In your Gemfile:
+
+    group :development do
+      gem 'capistrano-ssh', git: 'git@github.com:yosefsun/capistrano-easy-ssh.git'
+    end
+
+And in your config/deploy.rb:
+
+	require 'capistrano/capistrano-easy-ssh'
+
+=== How to use
+
+Simply run 'capistrano [environment] ssh' and you will be logged in or prompted (if more than one machine)
+
+Example : capistrano staging ssh
+
+== License
+
+@copy; Copyright Yossi Shemesh
+
+Released under an MIT License.
