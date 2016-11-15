@@ -19,7 +19,7 @@ And in your config/deploy.rb:
 
 Simply run:
 
-    'capistrano [environment] ssh'
+    capistrano [environment] ssh
 
 and you will be logged in or prompted (if more than one machine)
 
