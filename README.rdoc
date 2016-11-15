@@ -1,4 +1,4 @@
-== Capistrano Easy SSH
+== Capistrano easy SSH
 
 Adds a capistrano task which allows you to easily ssh into your different environments machines
 
