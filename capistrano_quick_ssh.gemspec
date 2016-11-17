@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   ## a custom homepage, consider using your GitHub URL or the like.
   s.authors  = ["Yossi Shemesh"]
   s.email    = 'yossi@yshemesh.com'
-  s.homepage = 'http://github.com/yosefshe/capistrano_quick_ssh'
+  s.homepage = 'https://github.com/yosefsun/capistrano_quick_ssh'
 
   ## This sections is only necessary if you have C extensions.
   # s.require_paths << 'ext'
